@@ -1,7 +1,18 @@
-const world = 'world';
+import { Command } from 'commander';
 
-export function hello(who: string = world): void {
-  console.log(`Hello ${who}!`);
-}
+const program = new Command();
 
-hello();
+program
+  .command('print')
+  .description('Print the message in your console')
+  .argument('<string>', 'input the message to print')
+  .option('-c --capitalize', 'Capitalize the message')
+  .action((message, options) => {
+    if (options.capitalize) {
+      console.log(message.toUpperCase());
+    } else {
+      console.log(message);
+    }
+  });
+
+program.parse();
