@@ -14,5 +14,6 @@
   "dependencies": {
     "commander": "^11.1.0",
     "shelljs": "^0.8.5"
-  }
+  },
+  "packageManager": "yarn@4.0.2"
 }
