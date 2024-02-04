@@ -6,7 +6,10 @@
 
 - [x] console.log 를 수행하는 command
 - [x] 프로젝트 폴더 구조, 파일 생성
-- [ ] npm 에 라이브러리 배포
+- [x] npm 에 라이브러리 배포
+  - https://www.npmjs.com/package/architecture-generator
+- [ ] npm 으로 설치 시, 정상 동작되도록 수정
+  - `node ./node_modules/architecture-generator/index.js init` 로 실행시에는 동작하는데, 의도한 `architecture-generator init` 으로는 동작하지 않는 문제 확인
 - [ ] nest new 와 호환되어 구조 설정
 - [ ] test 설정
 - [ ] logging 설정
