@@ -5,17 +5,13 @@
 # 진행 현황
 
 - [x] console.log 를 수행하는 command
-- [x] 프로젝트 폴더 구조, 파일 생성해주는 command
-- [ ] 인자로 받은 도메인, 용도에 맞는 파일 생성해주는 command
-  - [ ] module
-  - [ ] query
-  - [ ] command
-  - [ ] mapper
+- [x] 프로젝트 폴더 구조, 파일 생성
 - [ ] npm 에 라이브러리 배포
-- [ ] nest new 와 호환되어 구조 설정하는 command
-- [ ] test 관련 설정해주는 command
-- [ ] logging 관련 설정해주는 command
-- [ ] monitoring 관련 설정해주는 command
+- [ ] nest new 와 호환되어 구조 설정
+- [ ] test 설정
+- [ ] logging 설정
+- [ ] monitoring 설정
+- [ ] AI 를 활용한 용도에 맞는 구조 설정
 
 # 실행 방법
 
@@ -111,3 +107,9 @@ $ npx tsc index.ts && node index.js init
 
 29 directories, 21 files
 ```
+
+# 참고
+
+- [npm 배포](https://www.freecodecamp.org/news/how-to-create-and-publish-your-first-npm-package/)
+- [npm cli pacakge](https://blog.npmjs.org/post/118810260230/building-a-simple-command-line-tool-with-npm.html)
+- [리멤버 기술블로그 - yarn berry 도입기](https://blog.dramancompany.com/2023/02/%EB%A6%AC%EB%A9%A4%EB%B2%84-%EC%9B%B9-%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A2%8C%EC%B6%A9%EC%9A%B0%EB%8F%8C-yarn-berry-%EB%8F%84%EC%9E%85%EA%B8%B0/)
