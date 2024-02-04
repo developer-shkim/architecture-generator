@@ -6,7 +6,9 @@
     "generator"
   ],
   "version": "0.0.1",
-  "main": "index.js",
+  "bin": {
+    "architecture-generator": "index.js"
+  },
   "license": "MIT",
   "scripts": {
     "architecture:init": "npx tsc index.ts && node index.js init"
