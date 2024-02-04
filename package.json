@@ -1,6 +1,11 @@
 {
   "name": "architecture-generator",
-  "version": "1.0.0",
+  "description": "(WIP) Generate architecture for your project",
+  "keywords": [
+    "architecture",
+    "generator"
+  ],
+  "version": "0.0.1",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
