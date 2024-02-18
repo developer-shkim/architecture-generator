@@ -59,6 +59,8 @@ __metadata:
     commander: "npm:^11.1.0"
     shelljs: "npm:^0.8.5"
     typescript: "npm:^5.3.3"
+  bin:
+    architecture-generator: index.js
   languageName: unknown
   linkType: soft
 

@@ -11,7 +11,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "architecture:init": "npx tsc index.ts && node index.js init"
+    "build": "npx tsc index.ts",
+    "architecture:init": "node index.js init"
   },
   "devDependencies": {
     "@types/node": "^20.11.5",
