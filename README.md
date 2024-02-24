@@ -67,11 +67,13 @@
   - https://www.npmjs.com/package/architecture-generator
 - [x] npm 으로 설치 시, 정상 동작되도록 수정
   - `node ./node_modules/architecture-generator/index.js init` 로 실행시에는 동작하는데, 의도한 `architecture-generator init` 으로는 동작하지 않는 문제 확인
-- [ ] nest new 와 호환되는 구조 설정 명령어 작성
-- [ ] test 설정
-- [ ] logging 설정
-- [ ] monitoring 설정
-- [ ] AI 를 활용한 용도에 맞는 구조 설정
+- [ ] ./samples/nest-architecture-sample 에서 템플릿 작성
+  - [ ] clearn architecure 구조대로 변경 후 서버 정상 동작 확인
+  - [ ] test 설정
+  - [ ] logging 설정
+  - [ ] monitoring 설정
+- [ ] 프로젝트 특성에 맞는 여러 구조 리서치
+- [ ] AI 를 활용한 용도에 맞는 구조 설정 명령어 생성
 
 # 참고
 
