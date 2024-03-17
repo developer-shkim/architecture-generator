@@ -1,6 +1,7 @@
-# 목표
+# 설명
 
-프로젝트 구조 설정, 파일 생성 위한 command 생성
+- 간단한 command 를 만들어서 npm 에 deploy 를 해보았습니다.
+- [clearn architecture](https://github.com/developer-shkim/clean-architecture) 구조로 폴더와 파일을 생성해줍니다.
 
 # 실행 방법
 
@@ -70,10 +71,17 @@
 - [ ] ./samples/nest-architecture-sample 에서 템플릿 작성
   - [x] clearn architecure 구조대로 변경 후 서버 정상 동작 확인
   - [x] test 설정
-  - [ ] logging 설정
-  - [ ] monitoring 설정
-- [ ] 프로젝트 특성에 맞는 여러 구조 리서치
-- [ ] AI 를 활용한 용도에 맞는 구조 설정 명령어 생성
+  - [ ] ~~logging 설정~~
+  - [ ] ~~monitoring 설정~~
+- [ ] ~~프로젝트 특성에 맞는 여러 구조 리서치~~
+- [ ] ~~AI 를 활용한 용도에 맞는 구조 설정 명령어 생성~~
+
+# 배운 점
+
+- 패키지를 npm 에 배포하는 방법
+- npm run script 로 실행하려면 bin 옵션에 파일을 명시해야 함
+- shebang 으로 파일을 해석해줄 인터프리터 위치 지정하여 command not found 오류 해결
+- 프로젝트의 목표를 구체적으로 세워서 완성도를 측정할 수 있도록 진행하는 것이 좋을 것 같음
 
 # 참고
 
