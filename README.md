@@ -1,7 +1,7 @@
 # 설명
 
 - 간단한 command 를 만들어서 npm 에 deploy 를 해보았습니다.
-- [clearn architecture](https://github.com/developer-shkim/clean-architecture) 구조로 폴더와 파일을 생성해줍니다.
+- [clearn architecture](https://github.com/developer-shkim/study/tree/main/clean-architecture) 구조로 폴더와 파일을 생성해줍니다.
 
 # 실행 방법
 
